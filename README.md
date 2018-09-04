@@ -15,7 +15,7 @@ python attck_empire.py -a C:/tmp/agent.log
 MIRE Hosted - https://mitre.github.io/attack-navigator/enterprise/<br />
 Internal Instance - https://github.com/mitre/attack-navigator<br />
 
-Please note, the Navigator hosted instance by MITRE stores and utilizes layer files on the client-side, not server-side. For any 
-internal/sensitive data, it's recommended to use your own instance.
+*Please note, the Navigator hosted instance by MITRE stores and utilizes layer files on the client-side, not server-side. For any 
+internal/sensitive data, it's recommended to use your own instance.*
 
 4. Click on the plus sign on top left corner of ATT&CK Navigator page, select "Open Existing Layer" and choose your generated layer file (JSON)
