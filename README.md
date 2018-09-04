@@ -3,7 +3,7 @@
 Generate ATT&CK Navigator layer files (JSON) based on PowerShell Empire modules used during red team/pentesting engagements.  The modules are pulled from each host's agent.log file and mapped to one or more ATT&CK techniques.  This can be used as a learning tool for handoffs between red/blue teams as well as part of a final pentest report.
 
 Please note the layer generation portion (gen_layer.py) was developed by the 
-[MITRE ATT&CK team](https://github.com/mitre/attack-navigator/blob/master/layers/attack_layers/attack_layers_simple.py) and slightly modified in order to output JSON file. 
+[MITRE ATT&CK team](https://github.com/mitre/attack-navigator/blob/master/layers/attack_layers/attack_layers_simple.py) and slightly modified in order to output JSON file. A spreadsheet (Empire_modules.xlsx) is included that contains the technique/module mapping for any custom modifications.
 
 # Using the script
 1. Perform red team engagement using PowerShell Empire, generate agent.log files by compromising hosts and using different modules.
